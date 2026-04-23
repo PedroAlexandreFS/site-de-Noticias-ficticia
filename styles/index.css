@@ -20,7 +20,7 @@ body {
     text-align: center;
 }
 
-.logo{
+.logo {
     align-content: center;
     flex: 15%;
     margin-left: 10%;
@@ -31,7 +31,7 @@ body {
     font-size: 30px;
     background: rgb(189, 1, 1);
     height: 100%;
-    width: 25%;
+    width: 35%;
     padding: 10px 5px 10px 5px;
 }
 
@@ -53,20 +53,121 @@ body {
     font-size: 15px;
     text-decoration: none;
     padding: 15px 0;
-    margin-right:40px ;
+    margin-right: 40px;
     transition: all 0.2s ease-in;
 }
 
-.navegacao a:hover{
-    border-bottom: 3px solid  rgb(189, 1, 1);
+.navegacao a:hover {
+    border-bottom: 3px solid rgb(189, 1, 1);
 }
 
+.pesquisa {
+    flex: 3%;
+    align-content: center;
+    justify-content: flex-start;
+    border-right: 2px solid white;
+    height: 50%;
+    margin-top: 15px;
+
+}
+
+.pesquisa img {
+    padding-right: 20px;
+    transition: all 0.3s ease-in;
+
+}
+
+.pesquisa img:hover,
+.login img:hover {
+    height: 20px;
+}
+
+.login {
+    flex: 6%;
+    align-content: center;
+    margin-right: 6px;
+}
+
+
 /*==== CABEÇALHO ====*/
+.header {
+    display: flex;
+    margin-left: 1%;
+    margin-top: 50px;
+    flex-flow: row wrap;
 
+}
 
+.noticiasprincipais {
+    flex: 70%;
+    justify-content: start;
+    align-items: center;
+}
+
+.noticiadestaque {
+    font-size: 55px;
+    padding: 20px;
+}
+
+.noticiadestaque:hover {
+    text-decoration: underline;
+}
+
+.listanoticia li {
+    list-style: none;
+    padding: 4px 25px;
+    font-size: 20px;
+
+}
+
+.listanoticia li:hover{
+    text-decoration: underline;
+}
+
+.noticialaterais{
+    flex: 29%;
+    justify-content: center;
+  
+}
+
+.noticialaterais img{
+    height:200px;
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.noticialaterais h3{
+    margin-left: 40px;
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+   
+}
+
+.containerimage{
+    margin-left: 1%;
+    padding-top:20px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    border-top: 1px solid rgb(192, 192, 192);
+}
+
+.cardimage{
+    flex: 25%;
+    justify-content: center;
+}
+
+.cardimage img{
+    border-radius: 5px;
+    height: 150px;
+    width: 80%;
+    
+}
 
 
 /*==== CONTEUDO PRINCIPAL ====*/
 
 
-/* ==== rodapé ====*/
