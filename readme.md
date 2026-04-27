@@ -35,7 +35,7 @@ O objetivo é praticar estruturação de páginas web, estilização com Flexbox
 
 - . Clone este repositório:
 
-git clone https://github.com/PedroAlexandreFS/pratica-com-html-e-css
+git clone https://github.com/PedroAlexandreFS/site-de-Noticias-ficticia
 
 Feito por pedroAlexandreFS
 
