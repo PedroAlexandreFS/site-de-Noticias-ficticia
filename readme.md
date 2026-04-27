@@ -30,3 +30,10 @@ O objetivo é praticar estruturação de páginas web, estilização com Flexbox
 
 - Colocar um main no html
 - Responsividade para outros dispositivo
+
+- . Clone este repositório:
+
+git clone https://github.com/PedroAlexandreFS/pratica-com-html-e-css
+
+Feito por pedroAlexandreFS
+
